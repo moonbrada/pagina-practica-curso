@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: rgb(94, 88, 88);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor{
+    width: 1280px;
+    background: black;
+    margin: 10px auto;
+}
+
+.superior{
+    background: rgb(26, 25, 25);
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+
+.menu{
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding: 65px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white
+}
+
+.opciones li a:hover{
+    background: rgb(28, 28, 245);
+}
+
+.slider-frame{
+    width: 1280px;
+    height: 500px;
+    overflow: hidden;
+
+    animation: slide 12s infinite;
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.cuerpo{
+    overflow: hidden;
+}
+
+.caja{
+    float: left;
+    width: 390px;
+    margin: 18px;
+}
+
+.subtitulo{
+   background: rgb(28, 28, 245);
+}
+
+.productos{
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.efecto:hover{
+    opacity: 0.;
+    cursor: pointer;
+}
+
+.titulo{
+    color: white;
+}
+.contenido{
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+.caja{
+    float: left;
+    width: 400px;
+    margin: 12px;
+    border: 1px solid white;
+}
+
+.boton{
+    padding: 15px 20px;
+    margin: 20px 0;
+    color: white;
+   background: rgb(28, 28, 245);
+   border-radius: 5px;
+}
+
+.boton:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.titulo{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    font-size: 35px;
+}
+
+.pie{
+    background: rgb(26, 25, 25);
+    overflow: hidden;
+}
+
+.izquierda{
+    float: left;
+    width: 600px;
+    padding: 20px;
+}
+
+.derecha{
+    float: left;
+    width: 600px;
+    padding: 20px;
+}
+
+.abajo{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.siguenos{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
